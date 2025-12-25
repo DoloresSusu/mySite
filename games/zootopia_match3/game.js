@@ -477,7 +477,7 @@ class Game {
 
         // Score Icon & Text
         const iconSize = 40;
-        if (ASSETS.images.score_icon && ASSETS.images.score_icon.complete) {
+        if (ASSETS.images.score_icon && ASSETS.images.score_icon.complete && ASSETS.images.score_icon.naturalWidth !== 0) {
             ctx.drawImage(ASSETS.images.score_icon, pillX + 10, pillY + 5, iconSize, iconSize);
         } else {
             // Fallback
@@ -530,11 +530,19 @@ class Game {
     }
 
     loop(timestamp) {
-        const dt = (timestamp - this.lastTime) / 1000;
-        this.lastTime = timestamp;
+        try {
+            // Handle first frame properly
+            if (this.lastTime === 0) {
+                this.lastTime = timestamp;
+            }
+            const dt = Math.min((timestamp - this.lastTime) / 1000, 0.1); // Cap dt at 0.1s
+            this.lastTime = timestamp;
 
-        this.update(dt > 0.1 ? 0.1 : dt); // Cap dt
-        this.draw();
+            this.update(dt);
+            this.draw();
+        } catch (error) {
+            console.error('Game loop error:', error);
+        }
         requestAnimationFrame((t) => this.loop(t));
     }
 }
