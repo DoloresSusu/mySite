@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>无尽滑行 | Endless Glide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="ingame-ui">
+                <div id="stats">
+                    <div id="score-display">距离: 0 米</div>
+                    <div id="speed-display">速度: 0 公里/小时</div>
+                    <div id="controls-hint">空格: 跳跃 | Shift / 点击: 加速</div>
+                </div>
+            </div>
+
+            <div id="start-screen" class="overlay-screen active">
+                <div class="start-content">
+                    <h1>ENDLESS GLIDE</h1>
+                    <p class="cn-title">无尽滑行</p>
+                    <div class="instruction-box">
+                        <p>空格: 跳跃 | Shift: 加速</p>
+                        <p class="start-hint">按空格或点击开始游戏</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gameover-screen" class="overlay-screen">
+                <h2>滑行终止</h2>
+                <div id="final-score">滑行距离: 0 米</div>
+                <button id="retry-btn">重新出发</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
