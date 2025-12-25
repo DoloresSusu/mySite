@@ -155,8 +155,7 @@ class Tile {
 
         // Highlight
         ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
-        ctx.beginPath();
-        ctx.roundRect(rectX + 2, rectY + 2, size - 4, size / 2, [10, 10, 0, 0]);
+        drawRoundRect(ctx, rectX + 2, rectY + 2, size - 4, size / 2, 10);
         ctx.fill();
 
         // Character Image
@@ -473,8 +472,7 @@ class Game {
         // Score Pill
         const pillW = 220, pillH = 50, pillX = CONFIG.WIDTH / 2 - pillW / 2, pillY = 75;
         ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
-        ctx.beginPath();
-        ctx.roundRect(pillX, pillY, pillW, pillH, 25);
+        drawRoundRect(ctx, pillX, pillY, pillW, pillH, 25);
         ctx.fill();
 
         // Score Icon & Text
@@ -497,8 +495,7 @@ class Game {
 
         // Grid Background
         ctx.fillStyle = COLORS.grid_bg;
-        ctx.beginPath();
-        ctx.roundRect(CONFIG.OFFSET_X - 10, CONFIG.OFFSET_Y - 10,
+        drawRoundRect(ctx, CONFIG.OFFSET_X - 10, CONFIG.OFFSET_Y - 10,
             CONFIG.GRID_SIZE * CONFIG.TILE_SIZE + 20,
             CONFIG.GRID_SIZE * CONFIG.TILE_SIZE + 20, 15);
         ctx.fill();
@@ -520,8 +517,7 @@ class Game {
 
             ctx.strokeStyle = COLORS.selection;
             ctx.lineWidth = 3;
-            ctx.beginPath();
-            ctx.roundRect(x - glowSize / 2, y - glowSize / 2, CONFIG.TILE_SIZE + glowSize, CONFIG.TILE_SIZE + glowSize, 12);
+            drawRoundRect(ctx, x - glowSize / 2, y - glowSize / 2, CONFIG.TILE_SIZE + glowSize, CONFIG.TILE_SIZE + glowSize, 12);
             ctx.stroke();
         }
 
