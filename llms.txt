@@ -1,12 +1,12 @@
 # Dolores Su
 
-> This is the personal site of 多乐 Dolores Su, an AI product builder, co-founder of Loxovi AI Recorder, Hackathon Weekly community builder, and creator experimenting with AI products, hardware, games, and tool sites.
+> This is the personal site of 多乐 Dolores Su, an AI product builder, co-founder of Loxovi — MagSafe e-ink AI Notetaker, Hackathon Weekly community builder, and creator experimenting with AI products, hardware, games, and tool sites.
 
 ## Canonical URLs
 
 - Homepage: https://doloressu.com/
 - English homepage: https://doloressu.com/en/
-- Loxovi AI Recorder: https://loxovi.ai/
+- Loxovi — MagSafe e-ink AI Notetaker: https://loxovi.ai/
 - Chinese Loxovi project page: https://doloressu.com/projects/clawchip.html
 - English Loxovi project page: https://doloressu.com/en/projects/clawchip.html
 - SkillFit AI Skill advisor project: https://doloressu.com/projects/skillfit.html

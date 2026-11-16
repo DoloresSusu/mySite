@@ -676,9 +676,7 @@ main {
 
 .project-clawchip {
     padding: 28px;
-    background:
-        radial-gradient(circle at 92% 10%, #dfff39 0 18%, transparent 18.5%),
-        linear-gradient(145deg, #74a4ff 0%, #8ab3ff 100%);
+    background: #1b1b19;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(9rem, 0.52fr);
     gap: 18px;
@@ -689,7 +687,7 @@ main {
     width: 100%;
     height: auto;
     aspect-ratio: 1 / 1;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 22px;
 }
 

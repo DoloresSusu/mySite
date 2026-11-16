@@ -13,11 +13,11 @@ const locales = {
         description: "多乐 Dolores 的个人网站：AI 产品、Loxovi AI 录音设备、小程序与网页实验、周周黑客松社群、生活与创作。",
         ogLocale: "zh_CN",
         jobTitle: "AI 产品人",
-        schemaDescription: "AI 产品人，Loxovi AI Recorder 联合创始人，周周黑客松社群主理人。",
+        schemaDescription: "AI 产品人，Loxovi — MagSafe e-ink AI Notetaker 联合创始人，周周黑客松社群主理人。",
         nav: ["关于", "生活", "项目", "AI 框架", "留言"],
         hero: {
             lead: "做 AI 产品，也认真创造和生活。",
-            body: "Loxovi AI Recorder 联合创始人，万人 AI 社群周周黑客松社群主理人，前互联网大厂出海业务产品 / 项目经理。香港中文大学（深圳）金融硕士。",
+            body: "Loxovi — MagSafe e-ink AI Notetaker 联合创始人，万人 AI 社群周周黑客松社群主理人，前互联网大厂出海业务产品 / 项目经理。香港中文大学（深圳）金融硕士。",
             altMain: "多乐在山间黄昏时刻的照片",
             altAccent: "多乐在城市落日街头的照片"
         },
@@ -52,7 +52,7 @@ const locales = {
         },
         projects: {
             title: "我不只表达观点，也把东西真的做出来。",
-            clawchipTitle: "Loxovi AI Recorder",
+            clawchipTitle: "Loxovi — MagSafe e-ink AI Notetaker",
             clawchipSummary: "一款配有电子墨水屏的便携 AI 录音设备，把语音内容转化为清晰可见的下一步行动。",
             clawchipPoints: [
                 "我做了产品定义、概念表达和对外呈现。",
@@ -62,8 +62,8 @@ const locales = {
             detail: "查看项目详情",
             officialSite: "访问 Loxovi 官网",
             framework: "打开 AI 硬件框架",
-            clawchipPosterAlt: "Loxovi AI Recorder 吸附在手机背面的产品图",
-            clawchipPrototypeAlt: "手指按下 Loxovi AI Recorder 录音键的产品图",
+            clawchipPosterAlt: "Loxovi — MagSafe e-ink AI Notetaker 吸附在手机背面的产品图",
+            clawchipPrototypeAlt: "手指按下 Loxovi — MagSafe e-ink AI Notetaker 录音键的产品图",
             reportTitle: "AI 硬件创业者学习报告",
             reportText: "用第一性原理和 MECE 框架拆解 Plaud、Omi、Bee、Limitless、Rabbit、Harvey 与 Loxovi，快速判断一个 AI 硬件项目的需求、硬件必要性、AI 闭环、商业模式和风险边界。",
             reportAria: "打开 AI 硬件创业者学习报告",
@@ -109,14 +109,14 @@ const locales = {
         code: "EN",
         path: "",
         title: "Dolores Su | AI Product Builder",
-        description: "Dolores Su's personal website: AI products, Loxovi AI Recorder, playful web experiments, Hackathon Weekly, life, and creative work.",
+        description: "Dolores Su's personal website: AI products, Loxovi — MagSafe e-ink AI Notetaker, playful web experiments, Hackathon Weekly, life, and creative work.",
         ogLocale: "en_US",
         jobTitle: "AI Product Builder",
-        schemaDescription: "AI product builder, co-founder of Loxovi AI Recorder, and Hackathon Weekly community builder.",
+        schemaDescription: "AI product builder, co-founder of Loxovi — MagSafe e-ink AI Notetaker, and Hackathon Weekly community builder.",
         nav: ["About", "Life", "Projects", "AI Framework", "Guestbook"],
         hero: {
             lead: "I build AI products—and take creating and living seriously.",
-            body: "Co-founder of Loxovi AI Recorder and community lead of Hackathon Weekly, an AI community with more than 10,000 members. Former product and project manager for global businesses at major internet companies. MSc in Finance from CUHK-Shenzhen.",
+            body: "Co-founder of Loxovi and community lead of Hackathon Weekly, an AI community with more than 10,000 members. Former product and project manager for global businesses at major internet companies. MSc in Finance from CUHK-Shenzhen.",
             altMain: "Dolores in the mountains at sunset",
             altAccent: "Dolores on a city street at sunset"
         },
@@ -151,8 +151,8 @@ const locales = {
         },
         projects: {
             title: "I don’t just share ideas. I make them real.",
-            clawchipTitle: "Loxovi AI Recorder",
-            clawchipSummary: "A pocket AI recorder with a quiet e-paper display that turns what you say into a visible next step.",
+            clawchipTitle: "Loxovi — MagSafe e-ink AI Notetaker",
+            clawchipSummary: "A MagSafe e-ink AI Notetaker that connects your conversations to your AI tools and keeps your next steps in view.",
             clawchipPoints: [
                 "I led product definition, concept communication, and external storytelling.",
                 "The goal is not simply to make hardware, but to place AI inside a more natural user journey.",
@@ -161,8 +161,8 @@ const locales = {
             detail: "View case study",
             officialSite: "Visit Loxovi",
             framework: "Open the AI hardware framework",
-            clawchipPosterAlt: "Loxovi AI Recorder attached to the back of a phone",
-            clawchipPrototypeAlt: "A fingertip pressing the record button on Loxovi AI Recorder",
+            clawchipPosterAlt: "Loxovi — MagSafe e-ink AI Notetaker attached to the back of a phone",
+            clawchipPrototypeAlt: "A fingertip pressing the record button on Loxovi — MagSafe e-ink AI Notetaker",
             reportTitle: "A Field Guide for AI Hardware Builders",
             reportText: "A first-principles, MECE analysis of Plaud, Omi, Bee, Limitless, Rabbit, Harvey, and Loxovi—designed to assess demand, hardware necessity, the AI loop, business models, and risk boundaries.",
             reportAria: "Open the field guide for AI hardware builders",
@@ -238,7 +238,7 @@ const locales = {
         },
         projects: {
             title: "No solo comparto ideas. Las convierto en realidad.",
-            clawchipTitle: "Grabadora con IA Loxovi",
+            clawchipTitle: "Loxovi — MagSafe e-ink AI Notetaker",
             clawchipSummary: "Una grabadora de bolsillo con pantalla de tinta electrónica que convierte lo que dices en un siguiente paso visible.",
             clawchipPoints: ["Me encargué de la definición de producto, la expresión del concepto y su presentación externa.", "El objetivo no es solo fabricar hardware, sino integrar la IA en un recorrido más natural.", "Este proyecto representa cómo convierto una idea en un prototipo de producto."],
             detail: "Ver el proyecto",
@@ -313,7 +313,7 @@ const locales = {
         },
         projects: {
             title: "Não compartilho apenas ideias. Eu as torno reais.",
-            clawchipTitle: "Gravador com IA Loxovi",
+            clawchipTitle: "Loxovi — MagSafe e-ink AI Notetaker",
             clawchipSummary: "Um gravador de bolso com tela e-paper que transforma o que você diz em um próximo passo visível.",
             clawchipPoints: ["Conduzi a definição do produto, a expressão do conceito e a apresentação externa.", "O objetivo não é apenas criar hardware, mas inserir a IA em uma jornada mais natural.", "Este projeto representa como transformo uma ideia em um protótipo de produto."],
             detail: "Ver projeto",
@@ -388,7 +388,7 @@ const locales = {
         },
         projects: {
             title: "Je ne partage pas seulement des idées. Je les rends réelles.",
-            clawchipTitle: "Enregistreur IA Loxovi",
+            clawchipTitle: "Loxovi — MagSafe e-ink AI Notetaker",
             clawchipSummary: "Un enregistreur de poche avec écran e-paper qui transforme ce que vous dites en une prochaine étape visible.",
             clawchipPoints: ["J’ai dirigé la définition du produit, l’expression du concept et sa présentation externe.", "L’objectif n’est pas seulement de fabriquer du hardware, mais d’intégrer l’IA dans un parcours plus naturel.", "Ce projet représente ma capacité à transformer une idée en prototype de produit."],
             detail: "Voir le projet",
@@ -607,8 +607,8 @@ ${alternates}
                         <div class="project-links"><a href="${projectPrefix}/clawchip.html">${locale.projects.detail}</a><a href="https://loxovi.ai/" target="_blank" rel="noopener noreferrer">${locale.projects.officialSite}</a><a href="https://www.kickstarter.com/projects/1304096223/loxovi-e-paper-ai-notetakermeetings-end-next-steps-stay" target="_blank" rel="noopener noreferrer">Kickstarter</a><a href="${learningPrefix}/ai-hardware-framework.html">${locale.projects.framework}</a></div>
                     </div>
                     <div class="project-media project-clawchip">
-                        <img class="card-shot" src="${prefix}assets/clawchip-hero.webp" alt="${locale.projects.clawchipPosterAlt}" width="768" height="768" loading="eager" decoding="async">
-                        <img class="floating-shot" src="${prefix}assets/clawchip-press.webp" alt="${locale.projects.clawchipPrototypeAlt}" width="960" height="960" loading="eager" decoding="async">
+                        <img class="card-shot" src="/api/loxovi-image?slot=hero" alt="${locale.projects.clawchipPosterAlt}" width="768" height="768" loading="eager" decoding="async">
+                        <img class="floating-shot" src="/api/loxovi-image?slot=detail" alt="${locale.projects.clawchipPrototypeAlt}" width="960" height="960" loading="eager" decoding="async">
                     </div>
                 </article>
 
