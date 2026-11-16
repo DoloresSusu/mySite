@@ -674,14 +674,22 @@ main {
     min-height: 100%;
 }
 
+.project-feature { grid-template-columns: minmax(0, 1fr); }
 .project-clawchip {
-    padding: 28px;
-    background: #1b1b19;
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(9rem, 0.52fr);
-    gap: 18px;
-    align-items: end;
+    padding: 0;
+    background: #070b10;
+    display: block;
+    order: -1;
 }
+.ks-campaign-cover { display: block; }
+.ks-campaign-cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+}
+.detail-hero-media img { object-fit: contain; }
 
 .card-shot {
     width: 100%;

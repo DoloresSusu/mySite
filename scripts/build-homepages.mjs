@@ -607,8 +607,7 @@ ${alternates}
                         <div class="project-links"><a href="${projectPrefix}/clawchip.html">${locale.projects.detail}</a><a href="https://loxovi.ai/" target="_blank" rel="noopener noreferrer">${locale.projects.officialSite}</a><a href="https://www.kickstarter.com/projects/1304096223/loxovi-e-paper-ai-notetakermeetings-end-next-steps-stay" target="_blank" rel="noopener noreferrer">Kickstarter</a><a href="${learningPrefix}/ai-hardware-framework.html">${locale.projects.framework}</a></div>
                     </div>
                     <div class="project-media project-clawchip">
-                        <img class="card-shot" src="/api/loxovi-image?slot=hero" alt="${locale.projects.clawchipPosterAlt}" width="768" height="768" loading="eager" decoding="async">
-                        <img class="floating-shot" src="/api/loxovi-image?slot=detail" alt="${locale.projects.clawchipPrototypeAlt}" width="960" height="960" loading="eager" decoding="async">
+                        <a class="ks-campaign-cover" href="https://www.kickstarter.com/projects/1304096223/loxovi-e-paper-ai-notetakermeetings-end-next-steps-stay" target="_blank" rel="noopener noreferrer" aria-label="Loxovi on Kickstarter"><img src="${prefix}assets/loxovi-ks-cover-20261116.avif" alt="Loxovi Kickstarter campaign cover — Slide to record. Flip to focus." width="1024" height="576" loading="eager" decoding="async"></a>
                     </div>
                 </article>
 
